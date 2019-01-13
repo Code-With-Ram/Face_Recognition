@@ -34,7 +34,7 @@ except FileNotFoundError:
 
 
 # names related to ids: example ==> Ram: id=1,  etc
-#names = ['None', 'Ram', 'Vineeth','Akshatha','Adarsh'] 
+#names = ['None', 'Ram','Adarsh'] 
 
 # Initialize and start realtime video capture
 cam = cv2.VideoCapture(0)
@@ -83,7 +83,7 @@ while True:
         break
 
 # Do a bit of cleanup
-print("\n [INFO] Exiting Program and cleanup stuff")
+print("\n INFO--> Exiting Program and cleanup stuff")
 cam.release()
 cv2.destroyAllWindows()
 
