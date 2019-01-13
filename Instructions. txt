@@ -1,0 +1,5 @@
+Execution order
+
+1.faceextract.py
+2.facetraining.py
+3.face_rec.py
