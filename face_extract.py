@@ -8,8 +8,7 @@ cam.set(4, 480) # set video height
 
 face_detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-# For each person, enter one numeric face id
-
+# For each person, enter Name
 
 try:
     names=pickle.load(open("names.dat","rb"))
