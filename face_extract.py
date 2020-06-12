@@ -60,8 +60,5 @@ print("\n INFO---> Exiting Program and cleanup stuff")
 cam.release()
 cv2.destroyAllWindows()
 
-c = input("Do you want to train data sets ?(Y/N)")
 
-if c=='y' or c == 'Y':
-    os.system("python3 facetraining")
     
